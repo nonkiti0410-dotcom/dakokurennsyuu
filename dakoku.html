@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>出勤打刻フォーム</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>出勤打刻</h2>
+        
+        <div class="user-info">
+            <p>こんにちは、<span id="user-name">読み込み中...</span> さん</p>
+        </div>
+
+        <div class="status-box">
+            <p id="status-text">位置情報を取得していません</p>
+        </div>
+
+        <button id="btn-submit" disabled>位置情報を取得して打刻</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
