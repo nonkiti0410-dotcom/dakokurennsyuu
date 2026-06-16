@@ -1,6 +1,6 @@
 // 【要変更】あなたのLIFF IDとGASのウェブアプリURLを設定してください
-const LIFF_ID = 'YOUR_LIFF_ID'; 
-const GAS_URL = 'YOUR_GAS_WEB_APP_URL';
+const LIFF_ID = '2010370033'; 
+const GAS_URL = 'https://script.google.com/macros/s/AKfycby--8nHRymErPUy4ub2TS94KaDRBrQwEiPLNIKK1059m8z-FY2hQ-4BeSo__xcV2Is88Q/exec';
 
 let userId = '';
 let userName = '';
